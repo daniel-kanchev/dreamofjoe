@@ -4,5 +4,5 @@ NEWSPIDER_MODULE = 'dreamofjoe.spiders'
 ROBOTSTXT_OBEY = True
 LOG_LEVEL = 'WARNING'
 ITEM_PIPELINES = {
-   'dreamofjoe.pipelines.DreamofjoePipeline': 300,
+   'dreamofjoe.pipelines.DatabasePipeline': 300,
 }
